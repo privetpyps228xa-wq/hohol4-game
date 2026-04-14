@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hohol 4 — Скачать игру</title>
+    <style>
+        /* Основные стили */
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0b0e11;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            background: linear-gradient(to bottom, #fff, #888);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .tagline {
+            color: #7f8c8d;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
+        .game-preview {
+            width: 100%;
+            height: 200px;
+            background: #1c2128;
+            border: 2px solid #30363d;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #444;
+            font-weight: bold;
+            overflow: hidden;
+        }
+
+        /* Кнопка с твоим текстом */
+        .download-wrapper {
+            margin: 40px 0;
+        }
+
+        .btn-download {
+            display: inline-block;
+            background: #2ea44f;
+            color: white;
+            text-decoration: none;
+            padding: 22px 30px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            border-radius: 12px;
+            transition: all 0.2s ease;
+            box-shadow: 0 4px 15px rgba(46, 164, 79, 0.3);
+            width: 100%;
+            text-transform: uppercase;
+        }
+
+        .btn-download:hover {
+            background: #34d058;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(46, 164, 79, 0.4);
+        }
+
+        .btn-download:active {
+            transform: translateY(1px);
+        }
+
+        /* Характеристики */
+        .specs {
+            background: #161b22;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: left;
+            border: 1px solid #30363d;
+        }
+
+        .spec-item {
+            margin-bottom: 10px;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .spec-item:last-child { border: none; }
+
+        .label { color: #8b949e; }
+        .value { color: #58a6ff; font-weight: 500; }
+
+        footer {
+            margin-top: auto;
+            padding: 20px;
+            font-size: 0.8rem;
+            color: #484f58;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>hohol 4</h1>
+        <p class="tagline">Horror Game</p>
+
+        <div class="game-preview">
+            [ ПРЕВЬЮ HOHOL 4 ]
+        </div>
+
+        <div class="download-wrapper">
+            <a href="https://www.mediafire.com/file/6abq1e53nvzcb5v/hohol+4+horror+game.apk/file" class="btn-download">
+                СКАЧАТЬ hohol 4
+            </a>
+        </div>
+
+        <div class="specs">
+            <div class="spec-item">
+                <span class="label">Версия:</span>
+                <span class="value">1.0.0</span>
+            </div>
+            <div class="spec-item">
+                <span class="label">Платформа:</span>
+                <span class="value">Android (.apk)</span>
+            </div>
+            <div class="spec-item">
+                <span class="label">Размер файла:</span>
+                <span class="value">33 МБ</span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 hohol 4 Development.
+    </footer>
+
+</body>
+</html>
